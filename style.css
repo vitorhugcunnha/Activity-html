@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(179, 179, 179);
+    max-height: 110px;
+}
+.nav_p{
+    color:black;
+}
+.linkedin{
+    width: auto;
+    height: 100px;
+}
+.mid_card{
+    justify-content: center;
+    display: flex;
+}
+.card{
+    margin-top: 60px;
+    padding: 50px 50px 80px 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 5px solid black;
+    text-align: center;
+    box-shadow: 0 0 70px 5px rgb(143, 142, 142);
+}
+.perfil{
+    max-width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.img_whirl{
+    max-width: 150px;
+    min-height: auto;
+}
