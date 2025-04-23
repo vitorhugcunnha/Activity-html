@@ -12,11 +12,13 @@ nav{
     justify-content: space-evenly;
     background-color: rgb(179, 179, 179);
     max-height: 110px;
+    max-width: auto;
 }
 .nav_p{
     color:black;
 }
 .linkedin{
+    min-width: auto;
     width: auto;
     height: 100px;
 }
@@ -34,11 +36,13 @@ nav{
     box-shadow: 0 0 70px 5px rgb(143, 142, 142);
 }
 .perfil{
-    max-width: 300px;
+    min-width: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 2px solid white;
 }
 .img_whirl{
-    max-width: 150px;
+    width: 150px;
+    min-width: 150px;
     min-height: auto;
 }
